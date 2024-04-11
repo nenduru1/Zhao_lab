@@ -23,10 +23,16 @@ library(PgsRankRannotatR)
 perform_rank_aggregation(data_path, file_prefix, ranks_column)
 ```
 # Functions
-## generate_full_dataset
+```R
+generate_full_dataset()
+```
 Downloads and aggregates PGS from the PGS catalog.
-## process_data
+```R
+process_data()
+```
 Annotates variants and ranks variants based on absolute values of effect weights.
 
-## perform_rank_aggregation
+```R
+perform_rank_aggregation
+```
 Performs various algorithms of rank aggregation.
