@@ -7,7 +7,7 @@ PgsRankRannotatR is an R wrapper package designed to facilitate the aggregation 
 You can install the development version of PgsRankRannotatR from GitHub using the `devtools` package:
 
 ```R
-devtools::install_github("/savannahmwesigwa/Zhao_lab/tree/main/PgsRankRannotatR")
+devtools::install_github("savannahmwesigwa/Zhao_lab/PgsRankRannotatR")
 ```
 
 ## Usage
