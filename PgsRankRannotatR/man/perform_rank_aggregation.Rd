@@ -1,6 +1,6 @@
 \name{perform_rank_aggregation}
 \alias{perform_rank_aggregation}
-%- Also NEED an '\alias' for EACH other topic documented here.
+Uses the RobustRankAggreg package to perform rank aggregation. Additionally performs rank aggregation using the Dowdall method.
 \title{
 %%  ~~function to do ... ~~
 }

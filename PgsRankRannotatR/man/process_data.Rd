@@ -1,6 +1,6 @@
 \name{process_data}
 \alias{process_data}
-%- Also NEED an '\alias' for EACH other topic documented here.
+Uses the annotatr package to annotate the variants with nearest gene names and ranks variants based on the absolute value of effect weight.
 \title{
 %%  ~~function to do ... ~~
 }

@@ -2,7 +2,7 @@
 \alias{generate_full_dataset}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Collects and aggregates PGSs matching a trait term.
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
