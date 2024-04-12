@@ -1,8 +1,8 @@
 \name{perform_rank_aggregation}
 \alias{perform_rank_aggregation}
-Uses the RobustRankAggreg package to perform rank aggregation. Additionally performs rank aggregation using the Dowdall method.
+
 \title{
-%%  ~~function to do ... ~~
+Uses the RobustRankAggreg package to perform rank aggregation. Additionally performs rank aggregation using the Dowdall method.
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
