@@ -6,6 +6,7 @@
 \packageTitle{PgsRankRannotatR}
 }
 \description{
+PgsRankRannotatR is an R package designed to streamline the analysis of polygenic scores (PGSs) from the PGS catalog. It simplifies the process of aggregating PGSs, annotating variants with the nearest gene, and performing rank aggregation, all within a user-friendly interface.
 \packageDescription{PgsRankRannotatR}
 }
 \details{
@@ -16,6 +17,7 @@ The DESCRIPTION file:
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
+Savannah Mwesigwa
 \packageAuthor{PgsRankRannotatR}
 
 Maintainer: \packageMaintainer{PgsRankRannotatR}
