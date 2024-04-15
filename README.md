@@ -3,17 +3,11 @@
 PgsRankRannotatR is an R wrapper package designed to facilitate the aggregation of polygenic scores from the PGS Catalog for any particular trait, and perform rank aggregation and annotation of effect variants.
 
 ## Installation
-To include installation instructions in the `README.md` file for your R package that utilizes several Bioconductor packages, you can provide a clear step-by-step guide. Below is an example of how you might structure these instructions, ensuring that users are aware of the necessary steps to set up the environment before using your package.
 
-### README.md - Installation Instructions
-
----
-
-## Installation
 
 ### Prerequisites
 
-Before installing `PgsRankRannotatR`, you need to have R installed on your system (version 3.5.0 or higher is recommended, but `PgsRankRannotatR` was developed and tested using R version 4.1.1). You can download it from [CRAN](https://cran.r-project.org).
+Before installing `PgsRankRannotatR` you must have R installed on your system (version 3.5.0 or higher is recommended, but `PgsRankRannotatR` was developed and tested using R version 4.1.1). You can download it from [CRAN](https://cran.r-project.org).
 
 ### Installing Bioconductor and Dependencies
 
