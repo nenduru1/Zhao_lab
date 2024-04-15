@@ -1,0 +1,177 @@
+###PGS CATALOG SCORING FILE - see https://www.pgscatalog.org/downloads/#dl_ftp_scoring for additional information
+#format_version=2.0
+##POLYGENIC SCORE (PGS) INFORMATION
+#pgs_id=PGS003956
+#pgs_name=AD_Kunkle_AFR
+#trait_reported=Alzheimer's disease
+#trait_mapped=Alzheimer disease
+#trait_efo=MONDO_0004975
+#genome_build=GRCh38
+#variants_number=157
+#weight_type=beta
+##SOURCE INFORMATION
+#pgp_id=PGP000503
+#citation=Sofer T et al. Alzheimers Res Ther (2023). doi:10.1186/s13195-023-01298-3
+##HARMONIZATION DETAILS
+#HmPOS_build=GRCh38
+#HmPOS_date=2023-10-16
+#HmPOS_match_chr={"True": 157, "False": 0}
+#HmPOS_match_pos={"True": 157, "False": 0}
+chr_name	chr_position	effect_allele	other_allele	effect_weight	hm_source	hm_rsID	hm_chr	hm_pos	hm_inferOtherAllele	hm_match_chr	hm_match_pos
+19	44888997	T	C	0.4814	Author-reported		19	44888997		True	True
+19	44892962	T	C	0.36	Author-reported		19	44892962		True	True
+19	44893416	T	G	0.5977	Author-reported		19	44893416		True	True
+19	44894695	T	C	-0.7306	Author-reported		19	44894695		True	True
+19	44901805	A	G	0.4578	Author-reported		19	44901805		True	True
+19	44909976	T	G	-0.453	Author-reported		19	44909976		True	True
+19	44913034	T	C	-0.2707	Author-reported		19	44913034		True	True
+19	44913484	T	C	0.3109	Author-reported		19	44913484		True	True
+19	44917997	A	G	0.7355	Author-reported		19	44917997		True	True
+19	44920677	A	G	0.6595	Author-reported		19	44920677		True	True
+3	104690364	A	C	-0.2374	Author-reported		3	104690364		True	True
+1	1843736	A	G	0.8423	Author-reported		1	1843736		True	True
+3	9173612	T	C	0.3058	Author-reported		3	9173612		True	True
+3	172601325	A	G	-0.4343	Author-reported		3	172601325		True	True
+4	16870493	A	G	0.2414	Author-reported		4	16870493		True	True
+5	118076287	T	C	-0.6402	Author-reported		5	118076287		True	True
+6	148797857	A	C	-0.4586	Author-reported		6	148797857		True	True
+8	117477458	A	G	0.1689	Author-reported		8	117477458		True	True
+8	117600148	A	G	0.1958	Author-reported		8	117600148		True	True
+11	40069234	T	C	-0.3417	Author-reported		11	40069234		True	True
+11	42214127	T	C	0.3013	Author-reported		11	42214127		True	True
+12	126223337	T	C	-0.2272	Author-reported		12	126223337		True	True
+13	93507547	T	C	-0.4818	Author-reported		13	93507547		True	True
+19	1001778	A	C	0.3074	Author-reported		19	1001778		True	True
+19	2726201	A	G	-0.1869	Author-reported		19	2726201		True	True
+19	44878777	A	G	0.1797	Author-reported		19	44878777		True	True
+19	48330351	A	G	0.9986	Author-reported		19	48330351		True	True
+19	50021075	A	G	-0.2827	Author-reported		19	50021075		True	True
+22	48497035	T	G	0.1766	Author-reported		22	48497035		True	True
+1	4972396	A	G	-0.1727	Author-reported		1	4972396		True	True
+1	8299161	T	C	0.9115	Author-reported		1	8299161		True	True
+1	62786298	T	C	0.2423	Author-reported		1	62786298		True	True
+1	64633211	A	G	0.3718	Author-reported		1	64633211		True	True
+1	91728159	T	C	-0.2701	Author-reported		1	91728159		True	True
+1	95652125	A	G	-0.5518	Author-reported		1	95652125		True	True
+1	228804123	T	C	0.2298	Author-reported		1	228804123		True	True
+1	230571177	A	G	-0.3556	Author-reported		1	230571177		True	True
+1	233405548	T	C	-0.3451	Author-reported		1	233405548		True	True
+2	7089039	T	C	0.1968	Author-reported		2	7089039		True	True
+2	34679050	A	G	-0.2587	Author-reported		2	34679050		True	True
+2	64527495	A	G	0.4925	Author-reported		2	64527495		True	True
+2	65685778	A	G	-0.224	Author-reported		2	65685778		True	True
+2	69610562	A	G	-1.1516	Author-reported		2	69610562		True	True
+2	94772337	A	G	0.7001	Author-reported		2	94772337		True	True
+2	107943337	T	C	-0.192	Author-reported		2	107943337		True	True
+2	118789610	A	C	0.3112	Author-reported		2	118789610		True	True
+2	120634554	A	G	-1.6208	Author-reported		2	120634554		True	True
+2	131488836	T	C	0.2775	Author-reported		2	131488836		True	True
+2	164935546	A	G	0.1991	Author-reported		2	164935546		True	True
+2	196368350	A	G	-0.2666	Author-reported		2	196368350		True	True
+2	198729414	A	G	-0.221	Author-reported		2	198729414		True	True
+2	198731861	T	C	0.1847	Author-reported		2	198731861		True	True
+2	234311519	A	G	0.4251	Author-reported		2	234311519		True	True
+3	6106409	T	C	0.5077	Author-reported		3	6106409		True	True
+3	7733138	A	G	-0.283	Author-reported		3	7733138		True	True
+3	55782557	A	G	-0.255	Author-reported		3	55782557		True	True
+3	62488819	T	G	0.2261	Author-reported		3	62488819		True	True
+3	109631205	A	G	-0.2702	Author-reported		3	109631205		True	True
+3	124611469	A	G	-0.2533	Author-reported		3	124611469		True	True
+3	148835773	T	G	-0.1985	Author-reported		3	148835773		True	True
+3	160466499	A	G	0.9155	Author-reported		3	160466499		True	True
+3	175306675	T	C	-0.4847	Author-reported		3	175306675		True	True
+3	188415548	T	C	0.3249	Author-reported		3	188415548		True	True
+3	194051403	A	C	0.3947	Author-reported		3	194051403		True	True
+3	196179794	T	G	0.3482	Author-reported		3	196179794		True	True
+4	3150086	T	C	0.2437	Author-reported		4	3150086		True	True
+4	27494892	T	C	0.1773	Author-reported		4	27494892		True	True
+4	28160289	A	G	0.4004	Author-reported		4	28160289		True	True
+4	96434035	T	G	-0.3419	Author-reported		4	96434035		True	True
+4	119229001	A	C	0.1982	Author-reported		4	119229001		True	True
+4	141773441	T	C	0.3857	Author-reported		4	141773441		True	True
+4	155378888	T	C	0.2072	Author-reported		4	155378888		True	True
+4	180705574	T	C	-0.3699	Author-reported		4	180705574		True	True
+4	186653054	T	C	-0.2157	Author-reported		4	186653054		True	True
+5	41040379	T	C	0.3714	Author-reported		5	41040379		True	True
+5	99755164	A	G	-0.1705	Author-reported		5	99755164		True	True
+5	111090490	A	G	0.2378	Author-reported		5	111090490		True	True
+5	127471579	T	C	-0.3486	Author-reported		5	127471579		True	True
+5	160562800	T	C	0.2218	Author-reported		5	160562800		True	True
+6	33584387	T	G	-0.1648	Author-reported		6	33584387		True	True
+6	41160234	A	G	-0.1616	Author-reported		6	41160234		True	True
+6	112728611	A	G	-0.9642	Author-reported		6	112728611		True	True
+6	120046708	A	G	0.3658	Author-reported		6	120046708		True	True
+6	128196855	T	C	0.3923	Author-reported		6	128196855		True	True
+6	142293304	A	C	0.2026	Author-reported		6	142293304		True	True
+6	162525925	T	C	-0.3879	Author-reported		6	162525925		True	True
+6	169395880	T	C	1.104	Author-reported		6	169395880		True	True
+7	49568805	T	C	0.2937	Author-reported		7	49568805		True	True
+7	110789361	A	G	-0.8353	Author-reported		7	110789361		True	True
+7	113501945	T	C	0.2933	Author-reported		7	113501945		True	True
+7	149063758	T	C	0.197	Author-reported		7	149063758		True	True
+7	158602942	T	C	-0.1671	Author-reported		7	158602942		True	True
+8	370434	A	C	-0.239	Author-reported		8	370434		True	True
+8	4234112	T	C	0.578	Author-reported		8	4234112		True	True
+8	16029802	T	C	-0.243	Author-reported		8	16029802		True	True
+8	32113997	T	C	-0.2253	Author-reported		8	32113997		True	True
+8	56196799	T	C	0.2972	Author-reported		8	56196799		True	True
+8	73521699	T	C	-0.247	Author-reported		8	73521699		True	True
+8	109760400	A	G	-0.2871	Author-reported		8	109760400		True	True
+8	130785322	A	G	0.4457	Author-reported		8	130785322		True	True
+8	132522213	A	G	-0.2615	Author-reported		8	132522213		True	True
+9	23992981	T	C	-0.2266	Author-reported		9	23992981		True	True
+9	107242806	A	G	-0.724	Author-reported		9	107242806		True	True
+9	113973773	T	C	-1.1303	Author-reported		9	113973773		True	True
+9	130376706	T	C	0.2518	Author-reported		9	130376706		True	True
+9	137521891	T	C	-0.2884	Author-reported		9	137521891		True	True
+10	354460	T	C	0.2826	Author-reported		10	354460		True	True
+10	373802	A	G	0.3673	Author-reported		10	373802		True	True
+10	495426	A	G	0.32	Author-reported		10	495426		True	True
+10	66982887	A	C	-0.2779	Author-reported		10	66982887		True	True
+10	79292506	A	G	-0.2543	Author-reported		10	79292506		True	True
+10	109588444	A	G	0.1643	Author-reported		10	109588444		True	True
+10	118797441	T	G	-0.2549	Author-reported		10	118797441		True	True
+10	125587452	T	C	-0.7058	Author-reported		10	125587452		True	True
+10	133034546	A	G	0.1604	Author-reported		10	133034546		True	True
+11	31771503	T	G	-0.1556	Author-reported		11	31771503		True	True
+11	37913505	T	C	0.4303	Author-reported		11	37913505		True	True
+11	47706196	T	C	0.2648	Author-reported		11	47706196		True	True
+11	72792690	A	G	0.1564	Author-reported		11	72792690		True	True
+11	118881469	T	C	-0.2529	Author-reported		11	118881469		True	True
+11	122704246	T	C	0.1758	Author-reported		11	122704246		True	True
+12	25974295	T	C	-0.1997	Author-reported		12	25974295		True	True
+12	51937897	T	C	0.2694	Author-reported		12	51937897		True	True
+12	67388965	A	C	-0.1772	Author-reported		12	67388965		True	True
+12	70494926	T	C	-0.3092	Author-reported		12	70494926		True	True
+12	97291679	A	G	0.2655	Author-reported		12	97291679		True	True
+12	126218707	A	G	-0.1607	Author-reported		12	126218707		True	True
+13	19090565	T	C	-0.2679	Author-reported		13	19090565		True	True
+13	33726082	T	C	-0.2951	Author-reported		13	33726082		True	True
+13	102121050	A	G	0.2174	Author-reported		13	102121050		True	True
+14	65134435	T	C	-0.2312	Author-reported		14	65134435		True	True
+15	33175208	T	G	0.4358	Author-reported		15	33175208		True	True
+16	1061716	A	C	0.37	Author-reported		16	1061716		True	True
+16	65281272	T	C	-0.407	Author-reported		16	65281272		True	True
+16	68438404	A	C	-0.2174	Author-reported		16	68438404		True	True
+16	80396635	A	G	-0.25	Author-reported		16	80396635		True	True
+16	86299154	A	G	-0.3807	Author-reported		16	86299154		True	True
+16	86303206	T	C	0.2603	Author-reported		16	86303206		True	True
+16	86371739	T	C	-0.3301	Author-reported		16	86371739		True	True
+16	87338564	A	G	-0.3803	Author-reported		16	87338564		True	True
+17	79386742	A	G	-0.2913	Author-reported		17	79386742		True	True
+18	22301084	A	G	-0.1587	Author-reported		18	22301084		True	True
+18	40138900	A	G	0.2188	Author-reported		18	40138900		True	True
+18	74561289	A	G	0.2333	Author-reported		18	74561289		True	True
+18	74884223	A	C	0.165	Author-reported		18	74884223		True	True
+19	1051367	T	C	0.2329	Author-reported		19	1051367		True	True
+19	12067155	A	G	-0.3368	Author-reported		19	12067155		True	True
+19	16079405	T	G	-0.5489	Author-reported		19	16079405		True	True
+19	47735364	A	G	-0.2104	Author-reported		19	47735364		True	True
+20	4857931	A	C	-0.34	Author-reported		20	4857931		True	True
+20	60042792	A	C	0.2362	Author-reported		20	60042792		True	True
+21	28509694	A	G	-0.1496	Author-reported		21	28509694		True	True
+22	17735118	T	C	0.2932	Author-reported		22	17735118		True	True
+22	17744497	A	G	-0.2313	Author-reported		22	17744497		True	True
+22	19920696	T	C	0.1595	Author-reported		22	19920696		True	True
+22	26998589	A	G	-0.2221	Author-reported		22	26998589		True	True
+22	33181273	A	C	0.1977	Author-reported		22	33181273		True	True
