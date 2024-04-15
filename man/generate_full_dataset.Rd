@@ -2,7 +2,7 @@
 \alias{generate_full_dataset}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Collects and aggregates PGSs matching a trait term.
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -55,8 +55,6 @@ generate_full_dataset(trait_term, directory_path, output_file_prefix)
 ## The function is currently defined as
 function (trait_term, directory_path, output_file_prefix) 
 {
-    library(dplyr)
-    library(tidyr)
     PGS_traits <- get_traits(trait_term = trait_term, exact_term = FALSE)
     trait_vector <- PGS_traits@pgs_ids[4]
     suffix <- "_hmPOS_GRCh38.txt"

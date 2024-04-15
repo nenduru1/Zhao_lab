@@ -1,7 +1,5 @@
 generate_full_dataset <-
 function(trait_term, directory_path, output_file_prefix) {
-  library(dplyr)
-  library(tidyr)
   # Retrieve PGS traits related to the provided trait term
   PGS_traits <- get_traits(trait_term = trait_term, exact_term = FALSE)
   trait_vector <- PGS_traits@pgs_ids[4]

@@ -1,10 +1,6 @@
 perform_rank_aggregation <-
 function(data_path, file_prefix, ranks_column) {
-  library(dplyr)
-  library(tidyr)
-  library(RobustRankAggreg)
-  library(scales)
-  library(readr)
+  
   # Read data from the specified file
   data <- read.csv(data_path)  # Adjust read function based on your file type
   

@@ -1,23 +1,9 @@
 Package: PgsRankRannotatR
 Type: Package
-Title: Aggregate and rank PGSs
+Title: What the package does (short line)
 Version: 1.0
-Date: 2024-04-11
-Author: Savannah Mwesigwa
-Maintainer: Savannah Mwesigwa <savannah.mwesigwa@gmail.com>
-Description: For a trait of interest, will aggregate PGSs from PGS Catalog, annotate variants, rank variants by effect weight and perform rank aggregation for each variant across the PGSs
-License: GPL
-RoxygenNote: 7.3.1
-Encoding: UTF-8
-Imports:
-  annotatr,
-  GenomicRanges,
-  quincunx,
-  DBI,
-  TxDb.Hsapiens.UCSC.hg38.knownGene,
-  dplyr,
-  tidyr,
-  RobustRankAggreg,
-  scales,
-  readxl,
-  readr
+Date: 2024-04-15
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
