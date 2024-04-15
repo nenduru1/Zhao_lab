@@ -13,7 +13,7 @@ To include installation instructions in the `README.md` file for your R package 
 
 ### Prerequisites
 
-Before installing `PgsRankRannotatR`, you need to have R installed on your system (version 3.5.0 or higher is recommended). You can download it from [CRAN](https://cran.r-project.org).
+Before installing `PgsRankRannotatR`, you need to have R installed on your system (version 3.5.0 or higher is recommended, but `PgsRankRannotatR` was developed and tested using R version 4.1.1). You can download it from [CRAN](https://cran.r-project.org).
 
 ### Installing Bioconductor and Dependencies
 
