@@ -11,6 +11,7 @@
 
 # ****        generate_full_dataset function to merge all PGS score files into one dataset
 generate_full_dataset <- function(trait_term, directory_path, output_file_prefix) {
+  print(paste("Trait term received:", trait_term))
   library(dplyr)
   library(tidyr)
   # Retrieve PGS traits related to the provided trait term
