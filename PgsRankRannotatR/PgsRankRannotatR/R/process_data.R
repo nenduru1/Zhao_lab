@@ -1,20 +1,5 @@
-#' Process data
-#'
-#' This function annotates a merged dataset with genomic information.
-#'
-#' @param full_dataset_path The path to the full dataset CSV file.
-#' @param output_file_prefix The prefix for the output file name.
-#' @return The annotated dataset.
-#'
-#' @import tidyr
-#' @importFrom dplyr select mutate group_by arrange distinct left_join
-#' @importFrom GenomicRanges read_regions annotate_regions
-#' @importFrom annotatr build_annotations
-#' @export
-
-
-# ****        process_data function to annotate merged dataset with genomic information
-process_data <- function(full_dataset_path, output_file_prefix) {
+process_data <-
+function(full_dataset_path, output_file_prefix) {
   options(max.print = 100)
   library(DBI)
   library(TxDb.Hsapiens.UCSC.hg38.knownGene)

@@ -1,15 +1,5 @@
-#' Perform Rank Aggregation
-#'
-#' This function performs rank aggregation using various methods and generates an aggregated ranks CSV file.
-#'
-#' @param data_path The path to the data file.
-#' @param file_prefix The prefix for the output file name.
-#' @param ranks_column The column containing ranks in the data.
-#' @return A dataframe containing the aggregated ranks.
-#' @export
-
-
-perform_rank_aggregation <- function(data_path, file_prefix, ranks_column) {
+perform_rank_aggregation <-
+function(data_path, file_prefix, ranks_column) {
   library(dplyr)
   library(tidyr)
   library(RobustRankAggreg)

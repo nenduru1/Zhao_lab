@@ -3,9 +3,27 @@ Type: Package
 Title: What the package does (short line)
 Version: 1.0
 Date: 2024-04-11
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Savannah Mwesigwa
+Maintainer: Savannah Mwesigwa (savannah.mwesigwa@gmail.com)
+Description: For a trait of interest, will aggregate PGSs from PGS Catalog, annotate variants, rank variants by effect weight and perform rank aggregation for each variant across the PGSs
 License: What license is it under?
 RoxygenNote: 7.3.1
 Encoding: UTF-8
+Imports:
+  annotatr,
+  GenomicRanges,
+  quincunx,
+  DBI,
+  TxDb.Hsapiens.UCSC.hg38.knownGene,
+  dplyr,
+  tidyr,
+  RobustRankAggreg,
+  scales,
+  readxl,
+  readr
+Remotes:
+  BiocManager::install(version = '3.14', dependencies = TRUE),
+  BiocManager::install("annotatr"),
+  BiocManager::install("GenomicRanges"),
+  BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene"),
+  BiocManager::install("org.Hs.eg.db", version = '3.14')

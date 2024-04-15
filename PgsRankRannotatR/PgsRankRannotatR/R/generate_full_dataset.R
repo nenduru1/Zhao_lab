@@ -1,16 +1,5 @@
-#' Generate full dataset
-#'
-#' This function merges all PGS score files into one dataset.
-#'
-#' @param trait_term The trait term to retrieve PGS scores for.
-#' @param directory_path The directory path where the PGS score files are located.
-#' @param output_file_prefix The prefix for the output file name.
-#' @return The full dataset.
-#' @export
-
-
-# ****        generate_full_dataset function to merge all PGS score files into one dataset
-generate_full_dataset <- function(trait_term, directory_path, output_file_prefix) {
+generate_full_dataset <-
+function(trait_term, directory_path, output_file_prefix) {
   library(dplyr)
   library(tidyr)
   # Retrieve PGS traits related to the provided trait term
