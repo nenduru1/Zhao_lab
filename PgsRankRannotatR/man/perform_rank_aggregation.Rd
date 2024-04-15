@@ -2,7 +2,7 @@
 \alias{perform_rank_aggregation}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Performs rank aggregation
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
