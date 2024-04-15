@@ -55,9 +55,12 @@ generate_full_dataset(trait_term, directory_path, output_file_prefix)
 ## The function is currently defined as
 function (trait_term, directory_path, output_file_prefix) 
 {
+    print(paste("Trait term received:", trait_term))
     library(dplyr)
     library(tidyr)
-    PGS_traits <- get_traits(trait_term = trait_term, exact_term = FALSE)
+    library(quincunx)
+    PGS_traits <- quincunx::get_traits(trait_term = trait_term, 
+        exact_term = FALSE)
     trait_vector <- PGS_traits@pgs_ids[4]
     suffix <- "_hmPOS_GRCh38.txt"
     results <- lapply(trait_vector, function(item) {
