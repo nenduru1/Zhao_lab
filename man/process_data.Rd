@@ -1,8 +1,8 @@
 \name{process_data}
 \alias{process_data}
-
+%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Uses the annotatr package to annotate the variants with nearest gene names and ranks variants based on the absolute value of effect weight.
+Annotates and ranks variants
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -53,6 +53,12 @@ process_data(full_dataset_path, output_file_prefix)
 function (full_dataset_path, output_file_prefix) 
 {
     options(max.print = 100)
+    library(DBI)
+    library(TxDb.Hsapiens.UCSC.hg38.knownGene)
+    library(annotatr)
+    library(dplyr)
+    library(tidyr)
+    library(GenomicRanges)
     full_dataset <- read.csv(full_dataset_path)
     full_dataset_wide <- tidyr::spread(full_dataset, key = ID, 
         value = effect_weight, fill = NA)

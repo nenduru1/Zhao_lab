@@ -1,8 +1,8 @@
 \name{perform_rank_aggregation}
 \alias{perform_rank_aggregation}
-
+%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Uses the RobustRankAggreg package to perform rank aggregation. Additionally performs rank aggregation using the Dowdall method.
+Performs rank aggregation
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -55,6 +55,11 @@ perform_rank_aggregation(data_path, file_prefix, ranks_column)
 ## The function is currently defined as
 function (data_path, file_prefix, ranks_column) 
 {
+    library(dplyr)
+    library(tidyr)
+    library(RobustRankAggreg)
+    library(scales)
+    library(readr)
     data <- read.csv(data_path)
     data_InverseRank <- data \%>\% mutate(inv_ranks = 1/{
         {

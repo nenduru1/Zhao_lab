@@ -1,6 +1,12 @@
 process_data <-
 function(full_dataset_path, output_file_prefix) {
   options(max.print = 100)
+  library(DBI)
+  library(TxDb.Hsapiens.UCSC.hg38.knownGene)
+  library(annotatr)
+  library(dplyr)
+  library(tidyr)
+  library(GenomicRanges)
   # Read full dataset
   full_dataset <- read.csv(full_dataset_path)
   
