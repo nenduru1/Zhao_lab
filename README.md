@@ -73,6 +73,9 @@ generate_full_dataset("Alzheimer", "../Alzheimer_PGS", "AD")
 data_path is the path to the local directory where PGSs from the PGS catalog have been downloaded.
 This will generate an output file with the specified prefix *_full_dataset.csv
 In the above example, the file is AD_full_dataset.csv and can be used for the next step of annotating variants
+## Note
+Since the test dataset only has C+T PGSs, you will see a warning message about files that were not downloaded. 
+```Could not download ..*_hmPOS_GRCh38.txt because of: '../Alzheimer_PGS/*_GRCh38.txt' does not exist in current working directory.```
 ```R
 # process_data("path_to_full_dataset.csv", "file_prefix")
 process_data("./AD_full_dataset.csv", "AD")
