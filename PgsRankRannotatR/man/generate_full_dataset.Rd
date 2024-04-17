@@ -2,7 +2,7 @@
 \alias{generate_full_dataset}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-This function merges all PGS score files into one dataset
+%%  ~~function to do ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
