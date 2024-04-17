@@ -54,9 +54,15 @@ Once installed, you can load `PgsRankRannotatR` using:
 library(PgsRankRannotatR)
 ```
 
-Follow the package documentation and vignettes for further instructions on how to use the package effectively.
-
-
+### Clone repo with test files
+```R
+install.packages("git2r")
+library(git2r)
+repo_url <- "https://github.com/savannahmwesigwa/Zhao_lab.git"
+dest_path <- "./AlzheimerPGS_Tests"  # Specify your local directory here
+repo <- git2r::clone(repo_url, dest_path)
+setwd("./AlzheimerPGS_Tests")
+```
 
 # Functions
 ```R
