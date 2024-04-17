@@ -68,7 +68,7 @@ setwd("./AlzheimerPGS_Tests")
 ```R
 # generate_full_dataset("trait name", "data_path", "AD")
 # For example, using Alzheimer's disease
-generate_full_dataset("Alzheimer", "../Alzheimer_PGS", "AD")
+generate_full_dataset("Alzheimer", "./Alzheimer_PGS", "AD")
 ```
 data_path is the path to the local directory where PGSs from the PGS catalog have been downloaded.
 This will generate an output file with the specified prefix *_full_dataset.csv
