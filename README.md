@@ -1,17 +1,17 @@
-# PgsRankRannotatR
+# PgsRankRnnotatR
 
-PgsRankRannotatR is an R wrapper package designed to facilitate the aggregation of polygenic scores from the PGS Catalog for any particular trait, and perform rank aggregation and annotation of effect variants.
+PgsRankRnnotatR is an R wrapper package designed to facilitate the aggregation of polygenic scores from the PGS Catalog for any particular trait, and perform rank aggregation and annotation of effect variants.
 
 ## Installation
 
 
 ### Prerequisites
 
-Before installing `PgsRankRannotatR` you must have R installed on your system (version 3.5.0 or higher is recommended, but `PgsRankRannotatR` was developed and tested using R version 4.1.1). You can download it from [CRAN](https://cran.r-project.org).
+Before installing `PgsRankRnnotatR` you must have R installed on your system (version 3.5.0 or higher is recommended, but `PgsRankRannotatR` was developed and tested using R version 4.1.1). You can download it from [CRAN](https://cran.r-project.org).
 
 ### Installing Bioconductor and Dependencies
 
-`PgsRankRannotatR` relies on several packages from Bioconductor. To install these dependencies, follow the steps below:
+`PgsRankRnnotatR` relies on several packages from Bioconductor. To install these dependencies, follow the steps below:
 
 1. **Install Bioconductor Manager**:
    If you do not have `BiocManager` installed, you can install it using the following command in your R console:
@@ -35,23 +35,23 @@ Before installing `PgsRankRannotatR` you must have R installed on your system (v
    BiocManager::install("org.Hs.eg.db", version = '3.14')
    ```
 
-### Installing PgsRankRannotatR
+### Installing PgsRankRnnotatR
 
-After installing all necessary dependencies, you can install `PgsRankRannotatR` from GitHub using `devtools`:
+After installing all necessary dependencies, you can install `PgsRankRnnotatR` from GitHub using `devtools`:
 
 ```R
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 
-devtools::install_github("savannahmwesigwa/Zhao_lab/PgsRankRannotatR")
+devtools::install_github("savannahmwesigwa/Zhao_lab/PgsRankRnnotatR")
 ```
 
 ### Getting Started
 
-Once installed, you can load `PgsRankRannotatR` using:
+Once installed, you can load `PgsRankRnnotatR` using:
 
 ```R
-library(PgsRankRannotatR)
+library(PgsRankRnnotatR)
 ```
 
 ### Clone repo with test files
