@@ -2,10 +2,10 @@
 \alias{process_data}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Annotate and rank variants
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Variants are annotated with nearest gene name and ranked based on absolute value of effect weights.
 }
 \usage{
 process_data(full_dataset_path, output_file_prefix)

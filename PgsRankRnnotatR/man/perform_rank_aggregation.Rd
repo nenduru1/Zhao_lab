@@ -2,10 +2,10 @@
 \alias{perform_rank_aggregation}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Perform rank rggregation of variants
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Perform rank rggregation of variants using rank generated in previous step. Different algorithms implemented in the RobustRankAggreg package are used, in addition to "mean reciprocal rank"
 }
 \usage{
 perform_rank_aggregation(data_path, file_prefix, ranks_column)

@@ -2,10 +2,10 @@
 \alias{generate_full_dataset}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Merge all PGSs for selected trait
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function merges all PGSs for the selected train into one f
 }
 \usage{
 generate_full_dataset(trait_term, directory_path, output_file_prefix)

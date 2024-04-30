@@ -7,6 +7,7 @@ Author: Savannah Mwesigwa
 Maintainer: Savannah Mwesigwa <savannah.mwesigwa@gmail.com>
 Description: For a trait of interest, will aggregate PGSs from PGS Catalog, annotate variants, rank variants by effect weight and perform rank aggregation for each variant across the PGSs
 License: GPL
+Encoding: UTF-8
 Imports:
   annotatr,
   GenomicRanges,
@@ -19,3 +20,4 @@ Imports:
   scales,
   readxl,
   readr
+RoxygenNote: 7.3.1
