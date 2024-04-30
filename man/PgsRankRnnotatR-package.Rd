@@ -1,24 +1,24 @@
-\name{PgsRankRannotatR-package}
-\alias{PgsRankRannotatR-package}
-\alias{PgsRankRannotatR}
+\name{PgsRankRnnotatR-package}
+\alias{PgsRankRnnotatR-package}
+\alias{PgsRankRnnotatR}
 \docType{package}
 \title{
-\packageTitle{PgsRankRannotatR}
+\packageTitle{PgsRankRnnotatR}
 }
 \description{
-\packageDescription{PgsRankRannotatR}
+\packageDescription{PgsRankRnnotatR}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{PgsRankRannotatR}
-\packageIndices{PgsRankRannotatR}
+\packageDESCRIPTION{PgsRankRnnotatR}
+\packageIndices{PgsRankRnnotatR}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{PgsRankRannotatR}
+\packageAuthor{PgsRankRnnotatR}
 
-Maintainer: \packageMaintainer{PgsRankRannotatR}
+Maintainer: \packageMaintainer{PgsRankRnnotatR}
 }
 \references{
 ~~ Literature or other references for background information ~~
