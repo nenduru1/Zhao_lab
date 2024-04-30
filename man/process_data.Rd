@@ -5,7 +5,7 @@
 Annotates and ranks variants
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function annotates and ranks variants
 }
 \usage{
 process_data(full_dataset_path, output_file_prefix)
