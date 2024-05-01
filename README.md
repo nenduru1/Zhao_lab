@@ -46,7 +46,7 @@ if (!requireNamespace("devtools", quietly = TRUE))
 devtools::install_github("savannahmwesigwa/Zhao_lab/PgsRankRnnotatR")
 ```
 
-### Getting Started
+## Getting Started
 
 Once installed, you can load `PgsRankRnnotatR` using:
 
@@ -64,7 +64,8 @@ repo <- git2r::clone(repo_url, dest_path)
 setwd("./AlzheimerPGS_Tests")
 ```
 
-# Functions
+## Functions
+### Example usage of the generate_full_dataset function which aggregates all PGSs for a trait of interest
 ```R
 # generate_full_dataset("trait name", "data_path", "AD")
 # For example, using Alzheimer's disease
@@ -73,9 +74,12 @@ generate_full_dataset("Alzheimer", "./Alzheimer_PGS", "AD")
 data_path is the path to the local directory where PGSs from the PGS catalog have been downloaded.
 This will generate an output file with the specified prefix *_full_dataset.csv
 In the above example, the file is AD_full_dataset.csv and can be used for the next step of annotating variants
-## Note
+#### Note
 Since the test dataset only has C+T PGSs, you will see a warning message about files that were not downloaded. 
 ```Could not download ..*_hmPOS_GRCh38.txt because of: '../Alzheimer_PGS/*_GRCh38.txt' does not exist in current working directory.```
+
+### example usage of the process_data function which annotates and ranks the variants for each PGS
+
 ```R
 # process_data("path_to_full_dataset.csv", "file_prefix")
 process_data("./AD_full_dataset.csv", "AD")
@@ -84,7 +88,7 @@ Annotates variants and ranks variants based on absolute values of effect weights
 This produces an output file *_annotated_dataset.csv
 In the above example, the file is AD_annotated_dataset.csv
 Adds a column named "ranks" that will be used for rank aggregation in the next step.
-# Example usage of the perform_rank_aggregation function
+### Example usage of the perform_rank_aggregation function which performs rank aggregation using various algorithms
 ```R
 # perform_rank_aggregation("path_to_annotated_csv", "File_prefix", "column_to_rank")
 perform_rank_aggregation("AD_annotated_dataset.csv," "AD," ranks)
