@@ -78,7 +78,7 @@ In the above example, the file is AD_full_dataset.csv and can be used for the ne
 Since the test dataset only has C+T PGSs, you will see a warning message about files that were not downloaded. 
 ```Could not download ..*_hmPOS_GRCh38.txt because of: '../Alzheimer_PGS/*_GRCh38.txt' does not exist in current working directory.```
 
-### example usage of the process_data function which annotates and ranks the variants for each PGS
+### Example usage of the process_data function which annotates and ranks the variants for each PGS
 
 ```R
 # process_data("path_to_full_dataset.csv", "file_prefix")
