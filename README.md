@@ -30,6 +30,8 @@ Before installing `PgsRankRnnotatR` you must have R installed on your system (ve
    You will need to install the following packages. These commands will handle their installation:
    ```R
    BiocManager::install("annotatr")
+   ### if you receive warning message: package(s) not installed when version(s) same as or greater than current; use  `force = TRUE` to re-install: 'annotatr'
+   ##BiocManager::install("annotatr",force=TRUE)
    BiocManager::install("GenomicRanges")
    BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene")
    BiocManager::install("org.Hs.eg.db", version = '3.14')
